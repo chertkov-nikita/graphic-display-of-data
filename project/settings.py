@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'app',
 ]
 
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -108,7 +109,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 # Redirect to home URL after login (Default redirects to /accounts/profile/)
-LOGIN_REDIRECT_URL = '/display/histogram/'
+LOGIN_REDIRECT_URL = '/display/'
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.1/topics/i18n/

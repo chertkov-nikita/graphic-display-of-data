@@ -6,5 +6,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/', include('django.contrib.auth.urls')),
     path('signup/', views.SignUp.as_view(), name='signup'),
-    path('display/<graph_type>/', views.app_page)
+    path('display/', views.app_page),
+    path('display/<graph_type>/', views.display_graph)
 ]
